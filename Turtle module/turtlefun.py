@@ -49,7 +49,7 @@ def print_triangle(t, r, t_a, t_b):
 # t - turtle
 # n - number of "slices of pie"
 # r - length of triangle's arm
-# calculating all of the triangles' angles:
+# calculating all the triangles' angles:
 #  - internal_angle is vertex angle,
 #  - triangle_angle is base angle,
 # calculating triangles' bases,
