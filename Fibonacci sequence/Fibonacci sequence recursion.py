@@ -21,7 +21,8 @@ numbers = int(input("How many Fibonacci numbers you want to display? "))
 recursion_Fibonacci(numbers)
 
 # displaying the content of the dictionary up to the value provided by the user
-# when the value is 0, the entire dictionary is not displayed, but only the 0th number
+# when the value is 0, not the entire dictionary is displayed, but only the 0th number
+# (yea, fixing my bugs)
 for i in range(numbers + 1):
     print(sequence[i], end=" ")
 
