@@ -31,3 +31,4 @@ try:
     print("\n\nThe golden ratio of the two largest numbers in the range is", sequence[numbers] / sequence[numbers - 1])
 except (ZeroDivisionError, KeyError):
     print("\n\nThe sequence must contain at least 3 numbers to calculate the golden ratio.")
+
