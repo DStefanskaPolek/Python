@@ -183,10 +183,6 @@ while True:
                         # *i is in the range (0, 1, 2), therefore i == 1 displays the last attempt message*
                         elif i < 2:
                             print("Password is invalid. Try again. You have", 3 - (i + 1), end=" ")
-                            # if i == 1:
-                            #     print(3 - (i + 1), "attempt left.")
-                            # else:
-                            #     print(3 - (i + 1), "attempts left.")
                             print("attempt{plural} left.".format(plural="" if i == 1 else "s"))
                         # on the third incorrect attempt, access is denied
                         # and the loop returns to the beginning (Enter your username:)
